@@ -1,16 +1,20 @@
-# practiches1
+# Практическая работа №1
+## Создание экранов при помощи Flutter
+### Цель: разработка макетов на Flutter в соответсвие с заданным дизайном.
+Ход работы:
 
-A new Flutter project.
+Для использования шрифтов необходимо подключить библиотеку google_fonts.
 
-## Getting Started
+В основе первого макета лежит виджет Column, а также Padding, который позволяет 
+корректировать отступы между объектами.
+![img_1.png](img_1.png)
+Для перехода между окнами выполнена настройка routes.
+![img_2.png](img_2.png)
+При разработке второго и третьего макета для удобства написания идентичных виджетов шаблон выносится в отдельный метод.
+![img_3.png](img_3.png)
+Для создания верхнего меню импользовался виджет AppBar.
+![img_5.png](img_5.png)
+Для разработки кнопок третьего макета создан элемент Map,хранящий названия кнопок, а в методе данные названия подставляются.
+![img_4.png](img_4.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Вывод: в ходе выполнения практической работы были разработаны макеты при помощи использования Flutter.
